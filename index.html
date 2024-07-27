@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.etsystatic.com/23911168/r/il/ab58a5/5153791265/il_fullxfull.5153791265_5a21.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 80%;
+            padding: 20px;
+            background-color: #F7F4E9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .header {
+            background-color: #8B9467;
+            color: #FFFFFF;
+            padding: 1em;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .header h1 {
+            color: #F7DC6F;
+            font-size: 46px;
+        }
+
+        .nav {
+            background-color: #8B9467;
+            padding: 1em;
+        }
+
+        .nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .nav a:hover {
+            color: #F7DC6F;
+        }
+
+        .main {
+            padding: 2em;
+        }
+
+        section {
+            background-color: #F7F4E9;
+            padding: 1em;
+            margin-bottom: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: none;
+        }
+
+        section:target {
+            display: block;
+        }
+
+        h2 {
+            color: #8B9467;
+        }
+
+        a {
+            color: #3E8E41;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #F7DC6F;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jasmine Kim's Baby Shower</h1>
+        </div>
+        <div class="nav">
+            <a href="#rsvp">RSVP</a>
+            <a href="#registry">Registry</a>
+            <a href="#contribution">529 Contribution</a>
+        </div>
+        <div class="main">
+            <section id="registry">
+                <h2>Amazon Baby Registry</h2>
+                <p>We have registered for some baby essentials on Amazon. You can view and purchase items from our registry using the link below:</p>
+                <p><a href="https://www.amazon.com/baby-reg/jasmine-kim-december-2024-annarbor/1DHRAOAMNR100" target="_blank">Amazon Baby Registry</a></p>
+            </section>
+            <section id="contribution">
+                <h2>529 Contribution</h2>
+                <p>If you would like to contribute to our baby's 529 education savings plan, please follow the instructions below:</p>
+                <ol>
+                    <li>Go to <a href="https://www.ugift529.com" target="_blank">Ugift529.com</a>.</li>
+                    <li>Enter the Ugift code: <strong>68R-98R</strong></li>
+                    <li>Enter your name and the amount of your gift.</li>
+                    <li>Make your gift via electronic funds transfer or check.</li>
+                </ol>
+            </section>
+            <section id="rsvp">
+                <h2>RSVP to the Baby Shower</h2>
+                <p>Please RSVP to the baby shower by filling out the form using the link below:</p>
+                <p><a href="https://forms.gle/WY1XNcxqWVG577Wu9" target="_blank">RSVP Form</a></p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
