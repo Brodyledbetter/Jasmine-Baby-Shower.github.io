@@ -22,17 +22,15 @@
         .container {
             width: 80%;
             padding: 20px;
-            background-color: #F7F4E9;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
 
         .header {
-            background-color: #8B9467;
-            color: #FFFFFF;
             padding: 1em;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
+            background-color: rgba(139, 148, 103, 0.5);
         }
 
         .header h1 {
@@ -42,7 +40,7 @@
 
         .nav {
             background-color: #8B9467;
-            padding: 1em;
+            padding: 0.5em;
         }
 
         .nav a {
@@ -57,10 +55,10 @@
 
         .main {
             padding: 2em;
+            background-color: #F7F4E9;
         }
 
         section {
-            background-color: #F7F4E9;
             padding: 1em;
             margin-bottom: 1em;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -94,6 +92,42 @@
         li {
             margin-bottom: 0.5em;
         }
+
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .nav a {
+                margin-right: 10px;
+            }
+
+            section {
+                padding: 0.5em;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .container {
+                width: 95%;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .nav a {
+                margin-right: 5px;
+            }
+
+            section {
+                padding: 0.2em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -102,11 +136,16 @@
             <h1>Jasmine Kim's Baby Shower</h1>
         </div>
         <div class="nav">
+            <a href="#home">Home</a>
             <a href="#rsvp">RSVP</a>
             <a href="#registry">Registry</a>
             <a href="#contribution">529 Contribution</a>
         </div>
         <div class="main">
+            <section id="home" style="display: block;">
+                <h2>Welcome to Jasmine Kim's Baby Shower Website!</h2>
+                <p>This website is designed to provide information and resources for guests attending Jasmine's baby shower. You can find details on the baby registry, RSVP to the event, and even contribute to the baby's 529 education savings plan.</p>
+            </section>
             <section id="registry">
                 <h2>Amazon Baby Registry</h2>
                 <p>We have registered for some baby essentials on Amazon. You can view and purchase items from our registry using the link below:</p>
