@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.etsystatic.com/23911168/r/il/ab58a5/5153791265/il_fullxfull.5153791265_5a21.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(139, 148, 103, 0.5);
+}
+
+.header h1 {
+    color: #F7DC6F;
+    font-size: 46px;
+}
+
+.nav {
+    background-color: #8B9467;
+    padding: 0.5em;
+}
+
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: #F7DC6F;
+}
+.main {
+    padding: 2em;
+    background-color: #F7F4E9;
+}
