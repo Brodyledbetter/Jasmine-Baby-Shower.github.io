@@ -48,6 +48,8 @@ body {
 .nav a {
     color: #F7DC6F; /* Theme-friendly default color */
     text-decoration: underline; /* Indicate a link */
+    margin: 0 15px; /* Horizontal margin to space out the links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .nav a:hover {
