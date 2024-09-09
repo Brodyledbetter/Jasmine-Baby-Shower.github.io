@@ -65,6 +65,12 @@ body {
     background-color: #F7F4E9;
 }
 
+.main img {
+    max-width: 100%;   /* Keeps the image responsive */
+    height: auto;      /* Maintains the aspect ratio */
+    max-width: 700px;  /* Limits the image width specifically for desktop */
+}
+
 ol {
     list-style-type: none;
 }
