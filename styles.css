@@ -49,3 +49,7 @@ body {
     padding: 2em;
     background-color: #F7F4E9;
 }
+
+ol {
+  list-style-type: none;
+ }
