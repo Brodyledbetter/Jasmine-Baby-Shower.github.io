@@ -2,7 +2,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://i.etsystatic.com/23911168/r/il/ab58a5/5153791265/il_fullxfull.5153791265_5a21.jpg');
+    background-image: url('bg.png');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
