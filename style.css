@@ -46,18 +46,18 @@ body {
 }
 
 .nav a {
-    color: #3B5323; /* Darker green for default link color */
+    color: #FFFFFF; /* Darker green for default link color */
     text-decoration: underline; /* Indicate a link */
     margin: 0 15px; /* Horizontal margin to space out the links */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .nav a:hover {
-    color: #2E4A1F; /* Even darker shade of green on hover */
+    color: #FFFFFF; /* Even darker shade of green on hover */
 }
 
 .nav a:visited {
-    color: #9D9D9D; /* A contrasting color for visited links */
+    color: #FFFFFF; /* A contrasting color for visited links */
 }
 
 .main {
